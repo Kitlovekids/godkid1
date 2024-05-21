@@ -1,28 +1,21 @@
 module.exports.config = {
 	name: "unsend",
-	version: "1.0.1",
+	version: "1.0.0", 
 	hasPermssion: 0,
-	credits: "Mirai Team",
-	description: "Unsend bot's messages",
-  usePrefix: true,
-	commandCategory: "message",
-	usages: "unsend",
-	cooldowns: 0
+	credits: "hulaanmo",
+	description: "Remove Bot's messages",
+	commandCategory: "System", 
+	usages: "", 
+	cooldowns: 0,
+	dependencies: [] 
 };
-
-module.exports.run = function({ api, event, getText }) {
-	if (!event.messageReply) {
-		return api.sendMessage(getText("missingReply"), event.threadID, event.messageID);
-	}
-
-	if (event.messageReply.senderID != api.getCurrentUserID()) return api.sendMessage(getText("returnCant"), event.threadID, event.messageID);
-	
-	return api.unsendMessage(event.messageReply.messageID);
-}
-
-module.exports.languages = {
-	"en": {
-		"returnCant": "Can't remove other people's messages.",
-		"missingReply": "You can't unsend a message out of nowhere. Please reply to a message first."
-	}
-}
+module.exports.languages = { "vi": 
+   { "unsendErr1": "Không thể gỡ tin nhắn của người khác.",
+ "unsendErr2": "Hãy reply tin nhắn cần gỡ." }, 
+"en": { "unsendErr1": "Can't to unsend message from other user.",
+        "unsendErr2": "Reply to the message you want to unsend." } }
+module.exports.run = async function({ api, event, args, Users }) {
+	if (event.messageReply.senderID != api.getCurrentUserID()) return api.sendMessage(getText('unsendErr1'), event.threadID, event.messageID);
+			if (event.type != "message_reply") return api.sendMessage(getText('unsendErr2'), event.threadID, event.messageID);
+			return api.unsendMessage(event.messageReply.messageID, err => (err) ? api.sendMessage(getText('error'), event.threadID, event.messageID) : '');
+    }

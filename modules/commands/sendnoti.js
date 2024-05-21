@@ -1,41 +1,76 @@
 module.exports.config = {
-    name: "sendnoti",
-    version: "1.0.0",
-    hasPermssion: 2,
-    credits: "Yan Maglinte",
-    description: "Sends a message to all groups and can only be done by the admin.",
-    usePrefix: true,
-    commandCategory: "message",
-    usages: "[Text]",
-    cooldowns: 5
+	name: "sendnoti",
+	version: "1.0.2",
+	hasPermssion: 2,
+	credits: "Mirai mod by HĐGN",
+	description: "announcement from admin",
+	commandCategory: "Admin",
+	usages: "[Text]",
+	cooldowns: 5
 };
-
-module.exports.run = async ({ api, event, args }) => {
-    const threadList = await api.getThreadList(25, null, ['INBOX']);
-    let sentCount = 0;
-    const custom = args.join(' ');
-
-    async function sendMessage(thread) {
-        try {
-            await api.sendMessage(`› A message from the Admin:\n\n${custom}`, thread.threadID);
-            sentCount++;
-        } catch (error) {
-            console.error("Error sending a message:", error);
-        }
-    }
-
-    for (const thread of threadList) {
-        if (sentCount >= 20) {
-            break;
-        }
-        if (thread.isGroup && thread.name != thread.threadID && thread.threadID != event.threadID) {
-            await sendMessage(thread);
-        }
-    }
-
-    if (sentCount > 0) {
-        api.sendMessage(`› Sent the notification successfully.`, event.threadID);
-    } else {
-        api.sendMessage("› No eligible group threads found to send the message to.", event.threadID);
-    }
-};
+ 
+module.exports.languages = {
+	"vi": {
+		"sendSuccess": "Đã gửi thánh chỉ tới %1 nhóm",
+		"sendFail": "Không thể gửi thánh chỉ tới %1 nhóm"
+	},
+	"en": {
+		"sendSuccess": "Sent message to %1 thread!",
+		"sendFail": "[!] Can't send message to %1 thread"
+	}
+}
+ 
+module.exports.run = async ({ api, event, args, getText, Users }) => {
+  const name = await Users.getNameUser(event.senderID)
+const moment = require("moment-timezone");
+      var gio = moment.tz("Asia/Manila").format("DD/MM/YYYY || HH:mm:s");  
+if (event.type == "message_reply") {
+const request = global.nodemodule["request"];
+const fs = require('fs')
+const axios = require('axios')
+			var getURL = await request.get(event.messageReply.attachments[0].url);
+ 
+					var pathname = getURL.uri.pathname;
+var ext = pathname.substring(pathname.lastIndexOf(".") + 1);
+ 
+					var path = __dirname + `/cache/snoti`+`.${ext}`;
+ 
+ 
+var abc = event.messageReply.attachments[0].url;
+    let getdata = (await axios.get(`${abc}`, { responseType: 'arraybuffer' })).data;
+ 
+  fs.writeFileSync(path, Buffer.from(getdata, 'utf-8'));
+ 
+ 
+	var allThread = global.data.allThreadID || [];
+	var count = 1,
+		cantSend = [];
+	for (const idThread of allThread) {
+		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
+		else {
+			api.sendMessage({body: `` + args.join(` `) + `\n\nfrom Admin: ${name}`,attachment: fs.createReadStream(path) }, idThread, (error, info) => {
+				if (error) cantSend.push(idThread);
+			});
+			count++;
+			await new Promise(resolve => setTimeout(resolve, 500));
+		}
+	}
+	return api.sendMessage(getText("sendSuccess", count), event.threadID, () => (cantSend.length > 0 ) ? api.sendMessage(getText("sendFail", cantSend.length), event.threadID, event.messageID) : "", event.messageID);
+ 
+}
+else {
+	var allThread = global.data.allThreadID || [];
+	var count = 1,
+		cantSend = [];
+	for (const idThread of allThread) {
+		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
+		else {
+			api.sendMessage(`` + args.join(` `) + `\n\nfrom Admin: ${name}`, idThread, (error, info) => {
+				if (error) cantSend.push(idThread);
+			});
+			count++;
+			await new Promise(resolve => setTimeout(resolve, 500));
+		}
+	}
+	return api.sendMessage(getText("sendSuccess", count), event.threadID, () => (cantSend.length > 0 ) ? api.sendMessage(getText("sendFail", cantSend.length), event.threadID, event.messageID) : "", event.messageID); }
+}

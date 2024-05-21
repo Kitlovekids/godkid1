@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mr.Aik3ro",
   description: "punch the friend tag",
+  usePrefix: true,
   commandCategory: "general",
   usages: "punch [Tag someone you want to punch]",
   cooldowns: 2,

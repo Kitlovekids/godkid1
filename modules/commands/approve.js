@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "DungUwU",
   description: "approve list/del/pending",
+  usePrefix: true,
   commandCategory: "Box",
   cooldowns: 5
 };

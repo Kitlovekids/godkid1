@@ -5,6 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: `${dek} (fix by Siegfried Sama)`,
   description: "gfx banner",
+  usePrefix: true,
   commandCategory: "banner",
   usages: "text",
   cooldowns: 2,

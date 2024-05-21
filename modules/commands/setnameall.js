@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 2,
   credits: "Khánh Milo",
   description: "Set nicknames all tv",
+  usePrefix: true,
   commandCategory: "Box Chat",
   usages: "[name]",
   cooldowns: 3

@@ -4,6 +4,7 @@ version: "1.0.0",
 hasPermssion: 0,
 credits: "Shiron",
 description: "Create a facebook cover photo",
+usePrefix: true,
 commandCategory: "game",
 cooldowns: 0,
 dependencies: {

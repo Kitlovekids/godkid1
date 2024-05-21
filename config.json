@@ -58,8 +58,8 @@
     "cooldownTime": 1200000
   },
   "help": {
-    "autoUnsend": true,
-    "delayUnsend": 60
+    "autoUnsend": false,
+    "delayUnsend": 300
   },
   "adminUpdate": {
     "autoUnsend": true,

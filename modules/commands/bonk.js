@@ -1,9 +1,10 @@
 module.exports.config = {
-	name: "horny",
+	name: "bonk",
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "hinata",
 	description: "blur",
+	usePrefix: true,
 	commandCategory: "Edit-img",
 	usages: "...",
 	cooldowns: 5,

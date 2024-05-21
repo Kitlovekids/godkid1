@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Tiadals",
 	description: "zzzzz",
+	usePrefix: true,
 	commandCategory: "Edit-img",
 	usages: "[text]",
 	cooldowns: 10,

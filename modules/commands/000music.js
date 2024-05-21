@@ -34,6 +34,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "D-Jukie",
     description: "Play music through YouTube link or search keyword",
+    usePrefix: true,
     commandCategory: "Youtube",
     usages: "[searchMusic]",
     cooldowns: 0

@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Grey",
   description: "bad",
+  usePrefix: true,
   commandCategory: "...",
   cooldowns: 0
 };

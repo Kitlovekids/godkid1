@@ -8,6 +8,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: 'Grey',
   description: 'Lyrics Finder',
+  usePrefix: true,
   commandCategory: 'fun',
   usage: '[song]',
   cooldowns: 5

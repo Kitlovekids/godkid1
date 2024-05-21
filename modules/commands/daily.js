@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Get 19011310000 coins every day!",
+    usePrefix: true,
 	commandCategory: "economy",
     cooldowns: 5,
     envConfig: {

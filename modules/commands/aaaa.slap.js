@@ -8,6 +8,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: `${mysterious}`,
   description: "it's just imitated because the old slap doesn't work",
+  usePrefix: true,
   commandCategory: "...",
   usages: "[tag]",
   cooldowns: 5,

@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Joshua Sy",
 	description: "just a paint ヾ( ͝° ͜ʖ͡°)ノ♪",
+  usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "paint or paint [@mention]",
   cooldowns: 5,

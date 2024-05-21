@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Mirai Team",
     description: "Đánh bạc bằng hình thức hoa quả",
+    usePrefix: true,
     commandCategory: "Economy",
     usages: "[số coin cần đặt]",
     cooldowns: 5,

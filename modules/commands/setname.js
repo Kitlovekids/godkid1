@@ -5,6 +5,7 @@ module.exports.config = {
 	credits: "Mirai Team",
 	description: "Change the nickname in your group or the person you tag",
 	commandCategory: "Box Chat",
+	usePrefix: true,
 	usages: "[name]",
 	cooldowns: 3
 };

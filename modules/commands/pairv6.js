@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Salman Ador",
   description: "It's a compound :>",
+  usePrefix: true,
   commandCategory: "fun",
   usages: "",
   dependencies: {

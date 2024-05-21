@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "See weather information in the area",
+	usePrefix: true,
 	commandCategory: "other",
 	usages: "[Location]",
 	cooldowns: 5,

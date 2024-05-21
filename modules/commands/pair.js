@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "tdunguwu",
 	description: "",
+    usePrefix: true,
 	commandCategory: "Picture",
 	cooldowns: 5,
 	dependencies: {

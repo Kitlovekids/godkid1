@@ -10,6 +10,7 @@ module.exports.config = {
   hasPermission: 2,
   credits: 'Arjhil',
   description: 'Announce a message with optional audio',
+  usePrefix: true,
   commandCategory: 'Admin',
   usage: '[Text]',
   cooldowns: 5,

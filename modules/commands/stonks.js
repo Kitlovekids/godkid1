@@ -3,6 +3,7 @@ module.exports.config = {
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "SaikiDesu",
+  usePrefix: true,
 	description: "get stonks image meme",
 	commandCategory: "edit-img",
 	usages: "[blank or tag]",

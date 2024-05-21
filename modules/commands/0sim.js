@@ -1,9 +1,10 @@
 module.exports.config = {
-    name: "sim",
+    name: "rizel",
     version: "1.0.0",
     hasPermssion: 0,
     credits: "KENLIEPLAYS",
     description: "Talk to sim",
+    usePrefix: false,
     commandCategory: "sim",
     usages: "[ask]",
     cooldowns: 2,

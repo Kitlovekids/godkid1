@@ -5,6 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Khoa",
   description: "It's a compound :>",
+  usePrefix: true,
   commandCategory: "fun",
   usages: "",
   dependencies: {

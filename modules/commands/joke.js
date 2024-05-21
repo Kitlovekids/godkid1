@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "ZiaRein",
 	description: "funny",
+	usePrefix: true,
 	commandCategory: "quotes",
 	cooldowns: 5
 };

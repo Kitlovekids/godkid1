@@ -9,6 +9,7 @@ module.exports.config = {
         credits: "tq.info",//Ai viết mdl quên mẹ rồi nên t thay thành tên t !! Tất cả video dược up bởi tq.info
 
         description: "RanDom Video Gái",
+        usePrefix: true,
 
         commandCategory: "no prefix",
 

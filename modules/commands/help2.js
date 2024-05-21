@@ -4,6 +4,7 @@
 	hasPermssion: 0,
 	credits: "PetterSever",
 	description: "Beginner's Guide",
+	usePrefix: true,
 	commandCategory: "system",
 	usages: "[Tên module]",
 	cooldowns: 1,

@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Leiam Nash",
 	description: "commands list",
+  usePrefix: true,
 	commandCategory: "system",
 	usages: "module name",
 	cooldowns: 1,

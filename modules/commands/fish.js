@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Huy",
 	description: "Sell own capital",
+    usePrefix: true,
 	commandCategory: "Economy",
     cooldowns: 5,
     envConfig: {

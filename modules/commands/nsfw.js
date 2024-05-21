@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Turn off the right to use NSFW commands",
+    usePrefix: true,
 	commandCategory: "System",
 	cooldowns: 5,
 };

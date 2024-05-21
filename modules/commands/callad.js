@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "NTKhang, ManhG Fix Get",
 	description: "Report bot's error to admin or comment",
+	usePrefix: true,
 	commandCategory: "group",
 	usages: "[Error encountered or comments]",
 	cooldowns: 5

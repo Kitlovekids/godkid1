@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "ZiaRein",
   description: "content",
+  usePrefix: true,
   commandCategory: "edit-img",
   usages: `Please enter some content\n\nHow to use?\n${global.config.PREFIX}cayetano <content>\n\nExample:\n${global.config.PREFIX}cayetano trust yourself\n`,
   cooldowns: 10,

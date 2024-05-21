@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Zia_Rein",
     description: "anime panties",
+    usePrefix: true,
     commandCategory: "nsfw",
     usages: "",
     cooldowns: 3,

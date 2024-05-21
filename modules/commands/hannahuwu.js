@@ -7,6 +7,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "HungCho",
   description: ".",
+  usePrefix: true,
   commandCategory: "nsfw",
   usages: "",
   cooldowns: 5,

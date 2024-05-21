@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 1,
 	credits: "BLACK",
 	description: "Random nude photo extreme burns eyes 18+",
+	usePrefix: true,
 	commandCategory: "nsfw",
 	usages: "anhnude",
 	cooldowns: 2

@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 2,
 	credits: "loi",
 	description: "change the amount of yourself or the person tagged",
+	usePrefix: true,
 	commandCategory: "System",
 	usages: "setmoney [Tag]",
 	cooldowns: 5,

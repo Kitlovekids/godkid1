@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "John Lester",
   description: "Award for your self <3",
+  usePrefix: true,
   commandCategory: "Edit-IMG",
   usages: "[ name ] | [ text ]",
   cooldowns: 10

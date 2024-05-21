@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "omseks",
 	description: "Obama Tweet post",
+	usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "[text]",
 	cooldowns: 10,

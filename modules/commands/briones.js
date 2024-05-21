@@ -5,6 +5,7 @@ module.exports.config = {
         credits: "sake ",
         description: "",
         commandCategory: "edit-img",
+        usePrefix: true,
         usages: "briones [text]",
         cooldowns: 10,
         dependencies: {

@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "John Lester",
   description: "hack",
+  usePrefix: true,
   commandCategory: "hack",
   usages: "@mention",
   dependencies: {

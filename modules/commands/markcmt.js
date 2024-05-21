@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Tiadals",
 	description: "Fake comment",
+	usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "markcmt [text]",
 	cooldowns: 10,

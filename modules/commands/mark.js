@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "MewMew mod By hungdz30cm",
 	description: "Comment on the board",
+	usePrefix: true,
 	commandCategory: "game",
 	usages: "[text]",
 	cooldowns: 5,

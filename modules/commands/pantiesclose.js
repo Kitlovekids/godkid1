@@ -3,6 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Siêu Đáng Yêu",
+  usePrefix: true,
   description: "Projec M4a.",
   commandCategory: "Hình Ảnh",
   usages: "panclose",

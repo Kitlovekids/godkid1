@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "SaikiDesu",
     description: "",
+    usePrefix: true,
     commandCategory: "edit-img",
     cooldowns: 0,
     dependencies: {

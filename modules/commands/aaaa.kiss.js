@@ -9,6 +9,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "DinhPhuc",
     description: "",
+    usePrefix: true,
     commandCategory: "Love",
     usages: "[tag]",
     cooldowns: 5,

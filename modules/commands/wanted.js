@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "wanted",
 	version: "1.0.0",
 	hasPermssion: 0,
+  usePrefix: true,
 	credits: "tdunguwu",
 	description: "use money units like $, €",
 	commandCategory: "edit-img",

@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Hydrosimp?",
 	description: "enrile meme",
+	usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "[text]",
 	cooldowns: 10,

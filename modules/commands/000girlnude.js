@@ -8,6 +8,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "CallmeSun",
   description: "Random Nude Photo Nude is very beautiful and eye-pleasing (Note This is a photo command 18+ Consider Before Using)",
+  usePrefix: true,
   commandCategory: "nsfw",
   usages: "girlnude",
   cooldowns: 5,

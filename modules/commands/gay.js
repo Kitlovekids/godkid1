@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "SaikiDesu",
 	description: "gay image meme (for fun only)",
+  usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "[blank or tag]",
 	cooldowns: 5,

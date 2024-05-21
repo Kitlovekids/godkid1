@@ -7,6 +7,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Tiadals",
 	description: "Comment on the board ( ͡° ͜ʖ ͡°)",
+	usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "zuck [text]",
 	cooldowns: 10,

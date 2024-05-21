@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "work",
 	version: "1.0.1",
 	hasPermssion: 0,
+    usePrefix: true,
 	credits: "Mirai Team",
 	description: "If you work, you can eat!",
 	commandCategory: "Earn money",

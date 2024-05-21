@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Joshua Sy",
     description: "Arrrest a friend you mention",
+    usePrefix: true,
     commandCategory: "image",
     usages: "[mention]",
     cooldowns: 2,

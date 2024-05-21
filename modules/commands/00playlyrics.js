@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Grey",
   description: "Play a song with lyrics",
+  usePrefix: true,
   commandCategory: "utility",
   usages: "[title]",
   cooldowns: 5,

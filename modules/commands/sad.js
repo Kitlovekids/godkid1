@@ -6,6 +6,7 @@ module.exports.config = {
 	credits: "John Lester", 
 	description: "Just Respond",
 	commandCategory: "no prefix",
+	usePrefix: false,
     cooldowns: 5, 
 };
 

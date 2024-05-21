@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Clarence DK",
 	description: "Comment trên pỏnhub ( ͡° ͜ʖ ͡°)",
+	usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "billoard [text]",
 	cooldowns: 5,

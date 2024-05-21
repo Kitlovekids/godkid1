@@ -5,6 +5,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "jie",
   description: "Random girl image",
+  usePrefix: true,
   commandCategory: "nsfw",
   usages: "eabab",
   cooldowns: 1,

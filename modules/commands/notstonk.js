@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "SaikiDesu",
 	description: "put in the notstonk meme",
+  usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "[blank or tag]",
 	cooldowns: 5,

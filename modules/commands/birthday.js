@@ -5,6 +5,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Siegfried Sama", 
 	description: "no prefix",
+	usePrefix: true,
 	commandCategory: "No command marks needed",
 	usages: "...",
     cooldowns: 1, 

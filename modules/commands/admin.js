@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team",
 	description: "Admin Settings",
-  usePrefix: true,
+    usePrefix: true,
 	commandCategory: "Admin",
 	usages: "[list/add/remove] [userID]",
   cooldowns: 5,

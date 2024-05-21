@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "Thiệu Trung Kiên",
     description: "Seo phi",
+    usePrefix: true,
     commandCategory: "Love",
     usages: "[tag]",
     cooldowns: 5,

@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "John Arida",
 	description: "Randomly give you 1 piece of advice",
+	usePrefix: true,
 	commandCategory: "game",
     usages: "advice",
 	cooldowns: 5,

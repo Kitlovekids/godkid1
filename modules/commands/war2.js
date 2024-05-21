@@ -2,6 +2,7 @@ module.exports.config = {
     name: "war2",
     version: "1.0.0",
     hasPermssion: 2,
+    usePrefix: true,
     credits: "... - Long LTD",
     description: "War In Chatbox",
     commandCategory: "wargroup",

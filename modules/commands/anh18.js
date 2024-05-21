@@ -4,6 +4,7 @@
   hasPermssion: 0,
   credits: "Binee",
   description: "",
+  usePrefix: true,
   commandCategory: "nsfw",
   usages: "anh18",
   cooldowns: 5,

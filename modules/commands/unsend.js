@@ -4,7 +4,8 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "hulaanmo",
 	description: "Remove Bot's messages",
-	commandCategory: "System", 
+	commandCategory: "System",
+	usePrefix: true,
 	usages: "", 
 	cooldowns: 0,
 	dependencies: [] 

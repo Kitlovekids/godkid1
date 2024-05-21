@@ -4,6 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "John Lester",
     description: "fingering your vagina",
+    usePrefix: true,
     commandCategory: "img",
     usages: "[@mention]",
     cooldowns: 5,

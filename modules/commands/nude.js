@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "nnl", //thÃ­ch thay cre ko bá»‘ m Ä‘Ã£ bá»‘ thÃ­ cho dÃ¹ng rá»“i bá»›t bá»›t láº¡i nha con chÃ³
   description: "Random nude",
+  usePrefix: true,
   commandCategory: "hÃ¬nh áº£nh",
   usages: "nsfw",
   cooldowns: 5,

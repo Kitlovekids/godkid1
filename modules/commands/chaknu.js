@@ -4,7 +4,7 @@ module.exports.config = {
         hasPermssion: 0,
         credits: "light",
         description: "",
-        usePrefix: false,
+        usePrefix: true,
   commandCategory: "edit-img",
         usages: " [text]",
         cooldowns: 10,

@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Loid Butter",
   description: "Dice rolling",
+  usePrefix: true,
   commandCategory: "game-sp",
   usages: `Missing input\n\nHow to use?\n${global.config.PREFIX}dice <bet>\n\nExample:\n${global.config.PREFIX}dice 100\n`,
   cooldowns: 5,

@@ -5,6 +5,7 @@ module.exports.config = {
         version: "1.0.0",
 
         hasPermssion: 0,
+        usePrefix: true,
 
         credits: "tq.info",//Ai viết mdl quên mẹ rồi nên t thay thành tên t !! Tất cả video dược up bởi tq.info
 

@@ -2,6 +2,7 @@ module.exports.config = {
 	name: "sendnoti",
 	version: "1.0.2",
 	hasPermssion: 2,
+	usePrefix: true,
 	credits: "Mirai mod by HĐGN",
 	description: "announcement from admin",
 	commandCategory: "Admin",

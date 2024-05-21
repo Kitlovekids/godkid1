@@ -4,6 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "D-Jukie",
   description: "drake",
+  usePrefix: true,
   commandCategory: "edit-img",
   usages: "[text 1] | [text 2]",
   cooldowns: 10

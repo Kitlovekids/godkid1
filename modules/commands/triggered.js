@@ -4,6 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "NTKhang",
 	description: "triggered",
+  usePrefix: true,
 	commandCategory: "edit-img",
 	usages: "@tag",
 	cooldowns: 10,

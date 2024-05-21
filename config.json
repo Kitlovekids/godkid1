@@ -22,11 +22,11 @@
   },
   "commandDisabled": [],
   "eventDisabled": [],
-  "BOTNAME": "Bot",
-  "PREFIX": "?",
+  "BOTNAME": "Rizel",
+  "PREFIX": "!",
   "ADMINBOT": [
-    "YOUR_FB_UID",
-    "OTHER_FB_UID"
+    "100028577656562",
+    ""
   ],
   "DESIGN": {
     "Title": "BotPack",

@@ -52,7 +52,7 @@
   },
   "daily": {
     "cooldownTime": 43200000,
-    "rewardCoin": 500
+    "rewardCoin": 19011310000
   },
   "work": {
     "cooldownTime": 1200000
@@ -84,5 +84,16 @@
   "menu": {
     "autoUnsend": true,
     "delayUnsend": 60
+  },
+  "coinflip": {},
+  "fish": {
+    "cooldownTime": 1000000
+  },
+  "help2": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  },
+  "weather": {
+    "OPEN_WEATHER": "b7f1db5959a1f5b2a079912b03f0cd96"
   }
 }

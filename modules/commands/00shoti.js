@@ -19,7 +19,7 @@ module.exports.run = async function ({ api, event }) {
     let response = await axios.post(
       "https://shoti-srv1.onrender.com/api/v1/get",
       {
-        apikey: "YOUR-API-KEY",
+        apikey: "$shoti-1huci1sf171folq9vdo",
       },
     );
     if (response.data.code !== 200) {
